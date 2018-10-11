@@ -1,0 +1,107 @@
+* {
+	box-sizing: border-box;
+}
+
+div {
+	width:100%;
+	display: block;
+	
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.sidebar{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: left;
+	background-color: white;
+	padding-top: 30px;
+	font-size: 1em;
+	line-height: 1.2em;
+	z-index: 9996;
+	border-right: 2px groove #6495ED;
+	width: 15.2%;
+	margin: 1px;
+	color: #4d88ff;
+}
+.sidebar-name{
+	font-size: 1.5em;
+	font-weight: 600;
+	padding-left: 16px;
+	line-height: 1em;
+	margin-bottom: 20px;
+	color: #444;
+}
+.content-wrapper{
+    display: block;
+}
+.portrait {
+    height: 9em;
+    width: 9em;
+    display: block;
+    margin: 30px auto 50px auto;
+    border-radius: 100%;
+    background: transparent url(images/resume_photo.jpg) center top no-repeat;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+.sidebar-summary {
+    font-size: 1em;
+    padding-left: 16px;
+    margin-bottom: -10px;
+    line-height: 1em;
+	color: #444;
+}
+.sociallinks{
+	font-size: 1em;
+	padding-left: 16px;
+	margin-bottom: 2.1em;
+	list-style-type: none;
+	
+}
+
+.sidebar p a:hover{
+	font-size:1.1em
+}
+
+a:-webkit-any-link{
+	color: #1E90FF;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.sidebar li a {
+	color: #1E90FF;
+	display: block;	
+}
+.sidebar li a:hover{
+	background-color: #F0F8FF;
+	padding-left:3px;
+	border-left: 3px solid #00BFFF;
+}
+
+li.selected{
+	font-size: 1.2em;
+	line-height:1.2em;
+}
+
+
+
+header{
+	font-size: 2.8em;
+	font-weight: 900;
+	font-family: 'Roboto', serif;
+	position: relative;
+	text-align: center;
+	padding: 30px 0 40px 90px;
+	color: navy;
+	letter-spacing:2px;
+	text-decoration: underline;
+	border-bottom: 1px solid #6495ED;
+
+}
