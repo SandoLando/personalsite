@@ -1,0 +1,22 @@
+{
+  "name": "Start on Heroku: Python",
+  "description": "A barebones Python app, which can easily be deployed to Heroku.",
+  "image": "heroku/python",
+  "repository": "hhttps://github.com/SandoLando/mysite",
+  "keywords": ["python", "django" ],
+  "addons": [ "heroku-postgresql" ],
+  "env": {
+    "SECRET_KEY": {
+      "description": "52c46eo*eq1_4(ssc(3&)u)4$u#3x_8(jim2i(pgee2n=-3%ah",
+      "generator": "secret"
+    }
+  },
+  "environments": {
+    "test": {
+      "scripts": {
+        "test-setup": "python manage.py collectstatic --noinput",
+        "test": "python manage.py test"
+      }
+    }
+  }
+}
