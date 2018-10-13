@@ -12,8 +12,6 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
-
-
 .sidebar{
 	position: fixed;
 	top: 0;
@@ -26,9 +24,10 @@ body{
 	font-size: 1em;
 	line-height: 1.2em;
 	z-index: 9996;
-	border-right: 2px groove #6495ED;
-	width: 15.2%;
-	margin: 1px;
+	border-right: 6px solid #6495ED;
+	border-top:6px solid #6495ED;
+	border-bottom: 6px solid #6495ED;
+	width: 16%;
 	color: #4d88ff;
 }
 .sidebar-name{
@@ -102,6 +101,6 @@ header{
 	color: navy;
 	letter-spacing:2px;
 	text-decoration: underline;
-	border-bottom: 1px solid #6495ED;
+	border-bottom:6px groove #6495ED;
 
 }
