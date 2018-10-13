@@ -9,6 +9,9 @@ def IndexView(request):
 
 def ResumeView(request):
     return render(request, 'home/resume.html')
+
+def ProjectsView(request):
+    return render(request,'home/projects.html')
         
     
 

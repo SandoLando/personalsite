@@ -7,5 +7,6 @@ app_name = 'personalsite'
 urlpatterns = [
     path('', views.IndexView, name='index'),
     path('resume', views.ResumeView, name='resume'),
+    path('projects', views.ProjectsView, name='projects')
 
     ]

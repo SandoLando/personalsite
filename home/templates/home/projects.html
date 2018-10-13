@@ -1,0 +1,36 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'home/home_style.css' %}"/>
+<link href="https://fonts.googleapis.com/css?family=Niramit|Open+Sans|Oswald|Roboto" rel="stylesheet"/>
+<title> Sandy V. Leon - Python Engineer </title>
+
+
+
+<header style="color:#4d88ff"> Projects </header>
+
+	<div class="sidebar">
+	<div class="portrait"></div>
+	<div class ="content-wrapper">
+		<p class="sidebar-name"> Sandy V. Leon</p>
+		<p class="sidebar-summary" style="padding-left: 16px;"> Python Software Engineer</p>
+		<p class="sociallinks" style="color:#1E90FF"> <a href="https://github.com/SandoLando">Github / </a>
+		<a href="mailto:sandyvleon@gmail.com"> Email</a></p>
+		
+		<ul class="sociallinks">
+		
+		<li class="selected">
+			<a href="{% url 'home:index' %}">Home</a>
+		</li>
+		
+		<li class="selected">
+			<a href="{% url 'home:resume' %}">Resume</a>
+		</li>
+		
+		<li class="selected">
+			<a href="{% url 'home:projects' %}">Projects</a>
+		</li>
+		
+		
+		
+			</div>
+			
+</div>

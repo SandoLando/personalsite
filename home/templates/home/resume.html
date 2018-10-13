@@ -1,57 +1,62 @@
 {% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'home/resume_style.css' %}"/>
-<title>Sandy V. Leon - Resume</title>
+<link rel="stylesheet" type="text/css" href="{% static 'home/home_style.css' %}"/>
+<link href="https://fonts.googleapis.com/css?family=Niramit|Open+Sans|Oswald|Roboto" rel="stylesheet"/>
+<title> Sandy V. Leon - Python Engineer </title>
 
-<section data-description="Middle flourish">
-<center>
-<h1 class="mega regular ls-large libre-baskerville uppercase color-emphasis-3" style="margin-right: 50px">
-			 Sandy <span style="font-size:46px; margin-bottom:11px" class="decorative-span ls-small">V</span> Leon
-</h1>
 
-<p class="border">
-<a href="{% url 'home:index' %}" class="muli bold" style="font-size: 31px; position: absolute; left:40px; top:60px;">Home</a>
-<a href="{% url 'home:resume' %}" class ="muli bold" style="font-size: 25px; position: absolute; left:40px; top:110px">Resume</a>
+
+<header style="color:#4d88ff"> Resume </header>
+
+	<div class="sidebar">
+	<div class="portrait"></div>
+	<div class ="content-wrapper">
+		<p class="sidebar-name"> Sandy V. Leon</p>
+		<p class="sidebar-summary" style="padding-left: 16px;"> Python Software Engineer</p>
+		<p class="sociallinks" style="color:#1E90FF"> <a href="https://github.com/SandoLando">Github / </a>
+		<a href="mailto:sandyvleon@gmail.com"> Email</a></p>
+		
+		<ul class="sociallinks">
+		<li class="selected">
+			<a href="{% url 'home:index' %}">Home</a>
+		</li>
+		<li class="selected">
+			<a href="{% url 'home:resume' %}">Resume</a>
+		</li>
+		<li class="selected">
+			<a href="{% url 'home:projects' %}">Projects</a>
+		</li>
+		
+		
+		
+			</div>
+			
+</div>
+
+<div>
+<h2 style="padding:30px 0 0 250px; text-align: left; color:#2F4F4F;text-decoration:underline;">
+Experience: </h2>
+<h3 style="text-align: left;padding-left:250px;color:#2F4F4F;font-weight:500;">Jan2018 - Present&emsp; &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;Rideshare Driver—Philadephia, PA—Independent Contracter<h3>
+
+<p style="text-align: justify; color: #2F4F4F; padding: 10px 0 10px 515px; font-size:1em; line-height: 1.5em;font-weight:300;">Accommodating passengers and addressing any complaints or concerns<br> that they may have on the way. Ensuring a safe and comfortable trip. I site this work<br> because of the level of communication that is needed to get passengers happily to their<br> destination, a skill that I did not possess at the start of working.</p>
+
+<h2 style="padding:10px 0 0 250px; text-align: left; color:#2F4F4F;text-decoration:underline;">
+Education: </h2>
+<h3 style="text-align: left;padding-left:250px;color:#2F4F4F;font-weight:500;">Sept2013 - Dec2017&emsp;&emsp;&emsp;&emsp;&emsp;Community College of Philadelphia — Philadephia, PA — Associate in Science</h3>
+
+<h3 style="text-align: left;padding-left:248px;color:#2F4F4F;font-weight:500;">Aug2018 - Present&emsp; &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;Temple University — Philadephia, PA — Bachelor of Arts in Natural Science<h3>
+
+<h2 style="padding:30px 0 0 250px; text-align: left; color:#2F4F4F;text-decoration:underline;">
+Skills: </h2>
+<p style="text-align: justify; color: #2F4F4F; padding: 0 0 10px 510px; font-size:1.2em; line-height:1.5em; font-weight:500;">Languages:&emsp;English&nbsp;(Fluent)<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Spanish&nbsp;(Fluent)<br><br>
+
+Programming Languages:&emsp;&emsp;Python&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Intermediate)<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;HTML&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Basic)<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;CSS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Basic)<br>
+
 </p>
 
-<center>
-
-<p class="zeta bold muli uppercase line-height-small" style="margin-bottom:5rem; font-size: 16px;">
-3926 Glendale St<br>
-Philadelphia, PA 19124<br>
-Tel: 1(267)407-9432<br>
-Email: SandyVLeon@gmail.com
-</p>
-</center>
-<!--
-<p class="epsilon">
-<h3 class="decorative-span vollkorn ls-small regular">OBJECTIVE</h3><br>
-<h4 style="font-size:22px; margin-top:40px; margin-bottom:10px; color: #60547c" class="vollkorn">Content Developer Intern— Philadelphia, PA—DataCamp</h4><br>
-<p class ="epsilon regular muli">
-I am interested in an intern level position in Python Development. I am highly motivated<br> to learn any skill that will make me better at programming with Python. I am ready and<br> willing
-to put in the hours and effort needed to become a skilled developer.</p>
-</p>
--->
-<p class="epsilon">
-<h3 class="decorative-span vollkorn ls-small regular" style="margin-top:10px">EXPERIENCE</h3><br>
-<h4 style="font-size:22px; margin-top:50px; margin-bottom:10px; color: #60547c"class="vollkorn">Rideshare Driver—Philadephia, PA—Independent Contracter</h4><br>
-<p class ="epsilon regular muli">
-Accommodating passengers and addressing any complaints or concerns that they may <br>have on the way. Ensuring a safe and comfortable trip. I site this work because of the level <br>of communication that is needed to get passengers happily to their destination, a skill that I did<br> not  possess at the start of working.</p>
-
-</p>
-
-<p class="epsilon">
-<h3 class="decorative-span vollkorn ls-small regular" style="margin-top:45px">EDUCATION</h3><br>
-<h4 style="font-size:22px; margin-top:40px; margin-bottom:10px; color: #60547c"class="vollkorn">Community College of Philadelphia—Philadephia, PA—Associate in Science</h4><br>
-<p class="muli bold">SEPTEMBER 2013 - DECEMBER 2017</p>
-
-<h4 style="font-size:22px; margin-top:10px; margin-bottom:10px; color: #60547c"class="vollkorn">Temple University—Philadephia, PA—Bachelor of Arts in Natural Science</h4><br>
-<p class="muli bold"> AUGUST 2018 - PRESENT</p>
-
-</p>
-
-</section>
-</center>
 
 
 
-
+</div>
